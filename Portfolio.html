@@ -1,64 +1,45 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red27\green31\blue34;\red255\green255\blue255;
-\red109\green109\blue109;\red31\green118\blue44;\red91\green40\blue180;\red6\green33\blue79;}
-{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;\cssrgb\c14118\c16078\c18039;\cssrgb\c100000\c100000\c100000;
-\cssrgb\c50196\c50196\c50196;\cssrgb\c13333\c52549\c22745;\cssrgb\c43529\c25882\c75686;\cssrgb\c1176\c18431\c38431;}
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+<!—
+Author: Saul Garza
+Description: Prototype of an oline portfolio.
+—>
+<head>
+  <title>Portfolio</title>
+<link rel=“stylesheet” type=“text/css” href=“style.css”
+<link rel=“stylesheet” href=“//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css”>
+<link rel=“stylesheet” href=“//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css>
+</head>
 
-\f0\fs24 \cf0 <!\'97\
-Author: Saul Garza\
-Description: Prototype of an oline portfolio.\
-\'97>\
-<head>\
-  <title>Portfolio</title>\
-
-\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat4 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalt \clshdrawnil \clwWidth8491\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx4320
-\clmrg \clvertalt \clshdrawnil \clwWidth8491\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr200 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\sl400\partightenfactor0
-\cf2 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec3 <\strokec6 link\strokec3  \strokec7 rel\strokec3 =\strokec8 \'93stylesheet\'94\strokec3  \strokec7 type\strokec3 =\strokec8 \'93text/css\'94\strokec3  \strokec7 href\strokec3 =\strokec8 \'93style.css\'94\
-\pard\intbl\itap1\pardeftab720\sl280\partightenfactor0
-\cf2 \cb4 \strokec3 <\strokec6 link\strokec3  \strokec7 rel\strokec3 =\strokec8 \'93stylesheet\'94\strokec3  \strokec7 href\strokec3 =\strokec8 \'93//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css\'94\strokec3 >\
-<\strokec6 link\strokec3  \strokec7 rel\strokec3 =\strokec8 \'93stylesheet\'94\strokec3  \strokec7 href\strokec3 =\strokec8 \'93//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css\strokec3 >\cb1 \
-\pard\intbl\itap1\pardeftab720\sl400\partightenfactor0
-\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 </head>\cell 
-\pard\intbl\itap1\cell \lastrow\row
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 \
-<body>\
-  <div id="first-container">\
-    <a href="#third-container" id="project-info">Projects</a>\
-    <a href="#fourth-container" id="contact-info">Contact</a>\
-  </div>\
-      \
-  <div id="second-container" class="row">\
-    <p class="col-xl-6" id="intro">Saul Garza, 3rd-year Computer Science major with a minor in Mathematics at the University of San Diego (USD). Currently working at the ITS Help Desk as a student technician. Expected Graduation date is Spring 2019. Below are a few projects I've worked on in my spare time.</p>\
-    <img src="https://avatars.wheniwork.com/e7233701641dffc2802581aeee6881debdc31b85/148" alt="Profile Picture" id="profile-pic" >\
-  </div class="col-xl-6">\
-      \
-  <div id="third-container">\
-    <h2 class="text-center">Projects</h2>\
-    <ul>\
-      <li>Custom PC - Built custom gaming PC from scratch. Bought each component neessary for a fully functioning computer and pieced it together afterwards.</li>\
-      <li>Retropie - Turned my Raspberry Pi 3 into an old-school arcade emulator.</li>\
-      <li>Github - Created a <a href="https://github.com/sgarza007">Github page</a> where I have uploaded some of my work. Most of my programming projects have been from school projects so I can't post many of them.</li>\
-    </ul>\
-  </div>\
-  \
-  <div id="fourth-container">\
-    <h2 class="text-header">Contact</h2>\
-    <p>If you want to contact me, please fill out the form below.</p>\
-    <form action="/submit-contact-info">\
-      <input type-"text" class="form-control" placeholder="Full Name" size="35" required>\
-      <input type="text" class="form-control" placeholder="Email Address" size="35" required>\
-      <input type="text" class="form-control" placeholder="Message/Subject" size="35" required>\
-      <button type="submit" name="Submit" class="btn fa fa-paper-plane">Submit</button>\
-    </form>\
-  </div>\
-  \
-  \
-      \
-</body>}
+<body>
+  <div id="first-container">
+    <a href="#third-container" id="project-info">Projects</a>
+    <a href="#fourth-container" id="contact-info">Contact</a>
+  </div>
+      
+  <div id="second-container" class="row">
+    <p class="col-xl-6" id="intro">Saul Garza, 3rd-year Computer Science major with a minor in Mathematics at the University of San Diego (USD). Currently working at the ITS Help Desk as a student technician. Expected Graduation date is Spring 2019. Below are a few projects I've worked on in my spare time.</p>
+    <img src="https://avatars.wheniwork.com/e7233701641dffc2802581aeee6881debdc31b85/148" alt="Profile Picture" id="profile-pic" >
+  </div class="col-xl-6">
+      
+  <div id="third-container">
+    <h2 class="text-center">Projects</h2>
+    <ul>
+      <li>Custom PC - Built custom gaming PC from scratch. Bought each component neessary for a fully functioning computer and pieced it together afterwards.</li>
+      <li>Retropie - Turned my Raspberry Pi 3 into an old-school arcade emulator.</li>
+      <li>Github - Created a <a href="https://github.com/sgarza007">Github page</a> where I have uploaded some of my work. Most of my programming projects have been from school projects so I can't post many of them.</li>
+    </ul>
+  </div>
+  
+  <div id="fourth-container">
+    <h2 class="text-header">Contact</h2>
+    <p>If you want to contact me, please fill out the form below.</p>
+    <form action="/submit-contact-info">
+      <input type-"text" class="form-control" placeholder="Full Name" size="35" required>
+      <input type="text" class="form-control" placeholder="Email Address" size="35" required>
+      <input type="text" class="form-control" placeholder="Message/Subject" size="35" required>
+      <button type="submit" name="Submit" class="btn fa fa-paper-plane">Submit</button>
+    </form>
+  </div>
+  
+  
+      
+</body>
